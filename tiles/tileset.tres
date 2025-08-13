@@ -1,5 +1,4 @@
-
-[gd_resource type="TileSet" load_steps=2 format=2]
+[gd_resource type="TileSet" load_steps=3 format=2]
 
 [ext_resource path="res://art/kenney_roguelike.png" type="Texture2D" id=1]
 
@@ -8,7 +7,15 @@ texture = ExtResource(1)
 region = Rect2(0, 0, 16, 16)
 margin = 1
 
+[sub_resource type="AtlasTexture" id=2]
+texture = ExtResource(1)
+region = Rect2(17, 0, 16, 16)
+margin = 1
+
 [resource]
 0/type = "Atlas"
 0/atlas = SubResource(1)
 0/occluder_light_mode = 0
+1/type = "Atlas"
+1/atlas = SubResource(2)
+1/occluder_light_mode = 0
