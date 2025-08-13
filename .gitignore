@@ -1,0 +1,7 @@
+# Godot 4
+.godot/
+.import/
+.export/
+# OS cruft
+.DS_Store
+Thumbs.db
